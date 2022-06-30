@@ -60,7 +60,6 @@ body {
 }
 
 
-
 /* view options */
 .main .speaker-grid-view,
 .main .arrow-4-size {
@@ -78,11 +77,37 @@ body {
     margin-left: 5px;
 }
 
-.icons-container:hover {
+.icons-container:hover,
+.footer .row-list:hover,
+.cards img:hover {
     cursor: pointer;
+    border: 1px solid greenyellow;
 }
 
 
+/* FOOTER */
+.footer {
+    justify-content: space-between;
+    background-color: #4E4E4E;
+}
+
+.footer > .col {
+    padding: 10px 20px 10px 10px;
+}
+
+.footer .row {
+    gap: 10px;
+} 
+
+.footer .row-list {
+    gap: 15px;
+    align-items: center;
+}
+
+.footer .col-left-icons {
+    text-align: center;
+    width: fit-content;
+}
 
 
 
