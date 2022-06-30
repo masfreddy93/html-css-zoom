@@ -109,12 +109,23 @@ body {
     width: fit-content;
 }
 
+.footer .col-right {
+    background-color: #6C6C6C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.footer .col-right a {
+    font-style: normal;
+    color: red;
+    text-decoration: none;
+}
 
 
 
 
 /* DEBUG */
-.debug * {
+/* .debug * {
     border: 2px solid rgb(181, 97, 7);
-}
+} */ */
