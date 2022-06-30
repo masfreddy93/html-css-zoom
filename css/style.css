@@ -13,6 +13,11 @@ img {
     max-width: 100%;
 }
 
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 /* BODY  */
 body {
     height: 100vh;
@@ -27,9 +32,15 @@ body {
     background-color: black;
 }
 
+.main .row {
+    gap: 5px;
+}
+
 .main .cards {
     position: relative;
+    width: calc((100% - 30px) / 7);
 }
+
 
 .main .cards img {
     display: block;
@@ -47,6 +58,10 @@ body {
     font-size: 13px;   
 }
 
+
+
+
+/* view options */
 .main .speaker-grid-view,
 .main .arrow-4-size {
     display: inline-block;
@@ -56,6 +71,11 @@ body {
     position: absolute;
     top: 5px;
     right: 5px;
+}
+
+.view-options .icons-container {
+    border-radius: 5px;
+    margin-left: 5px;
 }
 
 
