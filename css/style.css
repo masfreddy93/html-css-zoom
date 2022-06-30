@@ -40,6 +40,7 @@ body {
     position: relative;
     width: calc((100% - 30px) / 7);
     margin-bottom: 15px;
+    overflow: scroll;
 }
 
 
@@ -79,7 +80,8 @@ body {
 
 .icons-container:hover,
 .footer .row-list:hover,
-.cards img:hover {
+.cards img:hover,
+.footer .col-right:hover {
     cursor: pointer;
     border: 1px solid greenyellow;
 }
@@ -89,6 +91,10 @@ body {
 .footer {
     justify-content: space-between;
     background-color: #4E4E4E;
+    /* position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0; */
 }
 
 .footer > .col {
@@ -121,6 +127,14 @@ body {
     color: red;
     text-decoration: none;
 }
+
+
+
+/* 
+VIEWPORT
+.main .user-name {
+    font-size: calc(13px + 0.5vw);
+} */
 
 
 
